@@ -11,3 +11,13 @@ git config --global user.email "hecthoralvaro@gmail.com"
 
 git init
 
+## Asociar el repositorio (local) con el (remoto)
+git remote add origin https://github.com/HectorAlvaroVilla/prueba-git.git
+
+-------------------------------------------------------------------------
+git add .
+git commit -m "comandos iniciales de GIT"
+git push origin master
+
+
+git pull origin master
